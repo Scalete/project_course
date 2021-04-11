@@ -1,0 +1,23 @@
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+    &_fz64 {
+        font-size: 64px;
+    }
+    &_fz36 {
+        font-size: 36px;
+    }
+    &_fz24 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}

@@ -34,8 +34,13 @@
         &__button {
             display: none;
         }
+        &__logo {
+            display: unset;
+            left: 10px;
+        }
     }
     .menu {
+        margin: 0;
         position: fixed;
         flex-direction: column;
         justify-content: center;
@@ -101,6 +106,20 @@
     .menu {
         &__link {
             font-size: 15px;
+        }
+    }
+    .promo {
+        .title {
+            font-size: 31px;
+        }
+        &__wrapper {
+            margin-top: 40px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        &__item {
+            margin-top: 10px;
+            margin-right: 10px;
         }
     }
 }
