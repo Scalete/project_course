@@ -1,0 +1,18 @@
+.menu {
+    margin: 48px 0 0 213px;
+    max-width: 745px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    &__link {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
