@@ -1,0 +1,27 @@
+.occupation {
+    padding-top: 200px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__square {
+        max-width: 526px;
+        max-height: 499px;
+        border: 30px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to right, #C89AFC, hsl(248, 94%, 70%));
+        padding-top: 66px;
+        margin-right: 134px;
+    }
+    &__img {
+        max-width: 446px;
+    }
+    &__descr {
+        margin-top: 45px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+    }
+}

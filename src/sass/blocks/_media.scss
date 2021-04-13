@@ -6,6 +6,21 @@
         margin-left: 135px;
         max-width: 568px;
     }
+    .promo {
+        &__bar {
+            width: unset;
+            max-width: 714px;
+            &-fill {
+                width: unset;
+                max-width: 440px;
+            }
+        }
+    }
+    .occupation {
+        &__title {
+            font-size: 30px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -22,6 +37,20 @@
         }
         &__button {
             right: 10px;
+        }
+    }
+    .occupation {
+        .container {
+            flex-direction: column;
+        }
+        &__square {
+            margin: 0 auto;
+        }
+        &__wrapper {
+            margin-top: 70px;
+        }
+        &__title {
+            text-align: center;
         }
     }
 }
@@ -96,6 +125,23 @@
             }
         }
     }
+    .promo {
+        &__block {
+            .container {
+                flex-wrap: wrap;
+            }
+        }
+        &__earned {
+            margin-top: 20px;
+        }
+    }
+    .occupation {
+        padding-top: 100px;
+        &__square {
+            max-width: unset;
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -120,6 +166,33 @@
         &__item {
             margin-top: 10px;
             margin-right: 10px;
+        }
+        &__block {
+            .container {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &__students {
+            margin-top: 20px;
+        }
+        &__earned {
+            margin-top: 20px;
+        }
+    }
+    .occupation {
+        &__img {
+            max-width: unset;
+            width: 100%;
+        }
+        &__square {
+            border: 20px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(to right, #C89AFC, hsl(248, 94%, 70%));
+        }
+        &__descr {
+            margin-top: 10px;
         }
     }
 }

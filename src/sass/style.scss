@@ -17,10 +17,16 @@
     margin: 0 auto;
 }
 
+main {
+    min-height: 5639px;
+    background: url('../img/bg/main.jpg') center (center / cover) no-repeat;
+}
+
+@import 'blocks/title';
+@import 'blocks/button';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/menu';
-@import 'blocks/title';
-@import 'blocks/button';
+@import 'blocks/occupation';
 
 @import 'blocks/media';
